@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="all_sem_dataDataSet4" targetNamespace="http://tempuri.org/all_sem_dataDataSet4.xsd" xmlns:mstns="http://tempuri.org/all_sem_dataDataSet4.xsd" xmlns="http://tempuri.org/all_sem_dataDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="all_sem_dataConnectionString_sems" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="all_sem_dataConnectionString_sems (MySettings)" PropertyReference="ApplicationSettings.semester_selection.My.MySettings.GlobalReference.Default.all_sem_dataConnectionString_sems" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sem5TableAdapter" GeneratorDataComponentClassName="sem5TableAdapter" Name="sem5" UserDataComponentName="sem5TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="all_sem_dataConnectionString_sems (MySettings)" DbObjectName="sem5" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Name of the project], Subject, [Nos of teammates], [Roll no(L)], [Roll no(t1)], [Roll no(t2)], [Roll no(t3)], [Roll no(t4)], [Roll no(t5)], Description FROM sem5</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name of the project" DataSetColumn="Name of the project" />
+              <Mapping SourceColumn="Subject" DataSetColumn="Subject" />
+              <Mapping SourceColumn="Nos of teammates" DataSetColumn="Nos of teammates" />
+              <Mapping SourceColumn="Roll no(L)" DataSetColumn="Roll no(L)" />
+              <Mapping SourceColumn="Roll no(t1)" DataSetColumn="Roll no(t1)" />
+              <Mapping SourceColumn="Roll no(t2)" DataSetColumn="Roll no(t2)" />
+              <Mapping SourceColumn="Roll no(t3)" DataSetColumn="Roll no(t3)" />
+              <Mapping SourceColumn="Roll no(t4)" DataSetColumn="Roll no(t4)" />
+              <Mapping SourceColumn="Roll no(t5)" DataSetColumn="Roll no(t5)" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="all_sem_dataDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="all_sem_dataDataSet4" msprop:Generator_UserDSName="all_sem_dataDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sem5" msprop:Generator_TableClassName="sem5DataTable" msprop:Generator_TableVarName="tablesem5" msprop:Generator_TablePropName="sem5" msprop:Generator_RowDeletingName="sem5RowDeleting" msprop:Generator_RowChangingName="sem5RowChanging" msprop:Generator_RowEvHandlerName="sem5RowChangeEventHandler" msprop:Generator_RowDeletedName="sem5RowDeleted" msprop:Generator_UserTableName="sem5" msprop:Generator_RowChangedName="sem5RowChanged" msprop:Generator_RowEvArgName="sem5RowChangeEvent" msprop:Generator_RowClassName="sem5Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name_x0020_of_x0020_the_x0020_project" msprop:Generator_ColumnVarNameInTable="columnName_of_the_project" msprop:Generator_ColumnPropNameInRow="Name_of_the_project" msprop:Generator_ColumnPropNameInTable="Name_of_the_projectColumn" msprop:Generator_UserColumnName="Name of the project" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nos_x0020_of_x0020_teammates" msprop:Generator_ColumnVarNameInTable="columnNos_of_teammates" msprop:Generator_ColumnPropNameInRow="Nos_of_teammates" msprop:Generator_ColumnPropNameInTable="Nos_of_teammatesColumn" msprop:Generator_UserColumnName="Nos of teammates" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_L_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_L_" msprop:Generator_ColumnPropNameInRow="_Roll_no_L_" msprop:Generator_ColumnPropNameInTable="_Roll_no_L_Column" msprop:Generator_UserColumnName="Roll no(L)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_t1_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_t1_" msprop:Generator_ColumnPropNameInRow="_Roll_no_t1_" msprop:Generator_ColumnPropNameInTable="_Roll_no_t1_Column" msprop:Generator_UserColumnName="Roll no(t1)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_t2_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_t2_" msprop:Generator_ColumnPropNameInRow="_Roll_no_t2_" msprop:Generator_ColumnPropNameInTable="_Roll_no_t2_Column" msprop:Generator_UserColumnName="Roll no(t2)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_t3_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_t3_" msprop:Generator_ColumnPropNameInRow="_Roll_no_t3_" msprop:Generator_ColumnPropNameInTable="_Roll_no_t3_Column" msprop:Generator_UserColumnName="Roll no(t3)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_t4_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_t4_" msprop:Generator_ColumnPropNameInRow="_Roll_no_t4_" msprop:Generator_ColumnPropNameInTable="_Roll_no_t4_Column" msprop:Generator_UserColumnName="Roll no(t4)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Roll_x0020_no_x0028_t5_x0029_" msprop:Generator_ColumnVarNameInTable="_columnRoll_no_t5_" msprop:Generator_ColumnPropNameInRow="_Roll_no_t5_" msprop:Generator_ColumnPropNameInTable="_Roll_no_t5_Column" msprop:Generator_UserColumnName="Roll no(t5)" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
